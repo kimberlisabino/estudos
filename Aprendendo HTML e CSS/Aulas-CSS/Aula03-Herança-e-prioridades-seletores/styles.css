@@ -1,0 +1,44 @@
+.textoAzul {
+    color: blue;
+}
+
+.textoRosa {
+    color: pink;
+}
+
+#textoVerde {
+    color: green;
+}
+
+/* o h1 já está com o atribute class, que será priorizado acima do elemento html */
+h1 {
+    color: orange;
+}
+
+/* os elementos filhos herdam as propriedades do elemento pai */
+nav {
+    font-size: 30px;
+}
+
+/*Propriedades herdáveis por padrão
+
+Algumas propriedades CSS são herdáveis por padrão
+
+- "color"
+- "font-family"
+- "font-size"
+- "font-style"
+- "font-weight"
+- "line-height"
+- "text-align"
+- "visibility"
+
+// Propriedades que não são herdáveis por padrão
+
+- "background"
+- "border"
+- "margin"
+- "padding"
+- "height"
+- "width"
+- "display" */
