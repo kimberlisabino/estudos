@@ -1,0 +1,12 @@
+p {
+    font-family:"Rubik", monospace;
+    /*Deixar como segunda opção uma fonte padrão: serif, sans-serif, cursive, fantasy, monospace*/
+    font-weight: 100; /*varia de 100 a 900*/
+    font-style: italic;
+}
+
+#exemplo {
+    text-transform: capitalize; /*tornar a primeira letra maiúscula*/
+    text-transform: uppercase; /*tornar todas as letras maiúsculas*/
+    text-align: center;
+}
