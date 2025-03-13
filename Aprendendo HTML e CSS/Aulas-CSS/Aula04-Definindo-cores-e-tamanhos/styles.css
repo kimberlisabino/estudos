@@ -1,0 +1,48 @@
+h1 {
+    color: red;
+}
+
+#hexadecimal {
+    color: #ff0000; /*formato hexadecimal*/
+}
+
+#hexadecimalComOpacidade {
+    color: #ff000050; /*formato hexadecimal com opacidade no final*/
+}
+
+#rgb {
+    color: rgb(255, 0, 0); /*formato rgb - máximo de 255*/
+}
+
+#rgba {
+    color: rgba(200, 35, 35, 0.5); /*adiciona a quantidade de opacidade*/
+}
+
+section {
+    background-color: rgb(251, 255, 220);
+    /* font-size: 20px; definindo esse valor pra section, que é elemento pai de p, o font-size definido em p vai ser baseado nesse valor */
+    font-size: 20px;
+}
+
+#porcentagem {
+    font-size: 50%;
+}
+
+#em {
+    font-size: 2em; /*1x o tamanho da fonte do elemento pai*/
+}
+
+#rem {
+    font-size: 2rem; /*1x o tamanho do elemento raiz <html>*/
+}
+
+#caixa {
+    background-color: pink;
+    /* width: 50%; 50% do tamanho da página */
+    height: 50vh;
+    width: 50vw;
+}
+
+/* p {
+    font-size: 50%; cai para 50% do valor definido pelo elemento pai} 
+ } */
