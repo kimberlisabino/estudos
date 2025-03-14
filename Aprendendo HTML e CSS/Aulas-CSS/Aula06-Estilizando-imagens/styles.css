@@ -1,0 +1,18 @@
+img {
+    border-radius: 5%; /*círculo perfeito*/
+    /* border: 2px solid rgb(194, 18, 238); */
+    height: 200px;
+    filter: grayscale(100%);
+
+}
+
+#kim {
+    background-image: url("./assets/kim_vertical.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: 0 60%;
+    /*background-position: horizontal vertical;*/
+    border-radius: 50%;
+
+}
