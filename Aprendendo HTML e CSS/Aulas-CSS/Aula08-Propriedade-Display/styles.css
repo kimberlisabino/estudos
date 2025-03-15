@@ -1,0 +1,26 @@
+#block {
+    background-color: pink;
+}
+
+#inline {
+    background-color: greenyellow;
+}
+
+#inlineBlock {
+    background-color: rgb(211, 95, 211);
+}
+
+p {
+    background-color: red;
+    width: 100px; /*display block obedece definição de width e height*/
+}
+
+span {
+    background-color: green;
+    width: 400px; /*display inline não obedece definição de width e height*/
+}
+
+#itemInlineBlock {
+    background-color: blue;
+    display: inline-block;
+}
