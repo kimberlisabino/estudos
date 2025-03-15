@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fotoKim {
+    width: 300px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.noticias {
+    overflow: auto; /*especificar como os itens se comportam dentro de uma div que tem altura e largura definidos*/
+}
+
+.cafe {
+    height: 24px;
+    padding-top: 10px;
+}
+
+nav {
+    background-color: gray;
+    height: 50px;
+    padding: 0 40px;
+}
+
+ul {
+    float: right;
+
+    li {
+        display: inline;
+        line-height: 50px;
+        margin-right: 20px;
+    }
+}
