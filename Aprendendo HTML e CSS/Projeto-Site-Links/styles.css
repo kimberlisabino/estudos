@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(135deg, #0038FF, #e48f41);
+    height: 100vh;
+}
+
+#fotoKim {
+    background-image: url("./assets/photos/kim_github.jpg");
+    height: 255px;
+    width: 255px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem; /*forma mais acessível de unidade de medida para os textos*/
+    font-weight: 700;
+    margin: 33px 0 27px 0;
+    text-align: center;
+}
+
+.buttonSocial {
+    display: block;
+    border-radius: 50px;
+    width: 255px;
+    height: 40px;
+    background-color: #00000030;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 27px;
+    position: relative;
+    cursor: pointer;
+
+    img {
+        filter: invert(100%) brightness(200%);
+        height: 24px;
+        position: absolute;
+        left: 42px;
+        top: 9px;
+    }
+
+    p {
+        position: absolute;
+        left: 80px;
+        top: 12px;
+        font-size: 1.125rem;
+        line-height:1.125rem;
+    }
+
+}
+
+.instaButton {
+    background-color: #00000095;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
