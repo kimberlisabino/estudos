@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: 500px; /*precisa passar uma altura para funcionar o justify-content*/
+    border: 2px solid #000;
+    flex-direction: column;
+    justify-content: space-evenly; /*flex-start, center, flex-end, space-around, space-between*/
+}
+
+.item {
+    background-color: rgb(240, 110, 110);
+    /* margin: 10px; */
+}

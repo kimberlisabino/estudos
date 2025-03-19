@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    border: 2px solid #000;
+    flex-direction: column;
+}
+
+.item {
+    background-color: rgb(240, 110, 110);
+    margin: 10px;
+}

@@ -1,0 +1,21 @@
+* {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: 200px;
+    border: 2px solid #000;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    flex-wrap: wrap; /*nowrap (default), wrap, wrap-reverse*/
+}
+
+.item {
+    background-color: rgb(240, 110, 110);
+    margin: 10px;
+    padding: 10px 0;
+}

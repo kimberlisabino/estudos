@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: 200px;
+    border: 2px solid #000;
+    flex-direction: row;
+    justify-content: flex-start; /*eixo principal - horizontal*/
+    align-items: baseline; /*eixo transversal - secundário / stretch (se adapta a altura do container) / baseline (os items ficam alinhados na mesma linha)/ */
+}
+
+.item {
+    background-color: rgb(240, 110, 110);
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.i3 {
+    font-size: 40px;
+}
