@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    border: 2px solid #000;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* align-content: center;  */
+}
+
+.item {
+    background-color: rgb(240, 110, 110);
+    margin-right: 10px;
+    padding: 10px 0;
+}
+
+.i3 {
+    align-self: flex-end;
+}
+
+.i2 {
+    align-self: flex-start;
+}
