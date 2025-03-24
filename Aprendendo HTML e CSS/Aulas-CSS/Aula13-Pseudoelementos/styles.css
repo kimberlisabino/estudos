@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 2rem;
+}
+
+h2 {
+    margin: 3rem 0 1.5rem 0;
+}
+
+
+p{
+    position: relative;
+}
+
+.item1::before { /*inserir algo antes do item1*/
+    content: "";
+    height: 3px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    top:-10px;
+    left: -20px;
+}
+
+.item1::after { /*inserir algo depois do item1*/
+    content: "";
+    height: 3px;
+    width: 150px;
+    background-color: blue;
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+}
+
+.item2::first-line { /*aplica o estilo somente na primeira linha*/
+    font-weight: bold;
+}
+
+.item3::first-letter { /*aplica o estilo somente à primeira letra*/
+    font-size: 2rem;
+}
+
+.item4::selection { /*aplica um estilo quando estiver selecionando o texto*/
+    background-color: blueviolet;
+    color: #FFFFFF;
+}
