@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: "anton SC", sans-serif;
+    font-size: 5rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.textsContainer {
+    padding: 1rem;
+}
+
+.imagesContainer {
+    display: flex;
+}
+
+.image1 {
+    background-image: url("../Aula06-Estilizando-imagens/assets/kim_github.jpg");
+    height: 400px;
+    width: 50vw;
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url("../Aula06-Estilizando-imagens/assets/kim_github.jpg");
+    height: 400px;
+    width: 50vw;
+    background-size: cover;
+}
+
+@media (min-width: 300px) and (max-width: 800px) { /*para telas com no máximo 600px de largura*/
+    h1{
+        font-size: 4rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    .imagesContainer{
+        flex-direction: column;
+    }
+
+    .image1, .image2{
+        width: 100vw;
+    }
+}
+
+/*orientation: portrait ou landscape*/
+
+@media(orientation: portrait) {
+    body{
+        background-color: blue;
+    }
+}
+
+
+/*TELAS GRANDES - BREAKPOINT 1200PX*/
+/*TABLET - BREAKPOINT 700PX E 800PX*/
+/*CELULARES - BREAKPOINT 700PX OU MENOS*/
