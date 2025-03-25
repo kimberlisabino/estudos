@@ -1,0 +1,43 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+p {
+    display: inline;
+}
+
+body {
+    padding: 2rem;
+}
+
+/*Combinador descendente*/
+
+div p { /*selecionar todos os p dentro da div*/
+    background-color: red;
+}
+
+/*Combinador filho*/
+
+div > p { /*aplica somente para os p dentro de uma div - diretamente elemento filho*/
+    background-color: beige;
+}
+
+/*Combinador adjacente*/
+
+h2 + p { /*aplica a todos os p adjacente a um h2 - quando vem logo em seguida*/
+    font-weight: bold;
+}
+
+/*Combinador irmão geral*/
+
+h2 ~ p { /*estão no mesmo nível hierárquico - contidos pelo mesmo container/div*/
+    text-decoration: underline;
+}
