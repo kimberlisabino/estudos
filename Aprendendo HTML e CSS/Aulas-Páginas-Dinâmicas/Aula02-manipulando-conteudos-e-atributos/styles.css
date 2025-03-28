@@ -1,0 +1,25 @@
+.styledButton:nth-child(2) {
+    background-color: aquamarine;
+}
+
+.styledButton:nth-child(3) {
+    background-color: blueviolet;
+}
+
+.styledParagraph {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#customTitle {
+    text-decoration: underline;
+    color: blue;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+#orangeTitle {
+    color: orange;
+}
