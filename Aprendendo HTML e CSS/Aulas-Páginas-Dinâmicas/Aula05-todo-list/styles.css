@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 25vh;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+button {
+    background-color: blueviolet;
+    color: #FFFFFF;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.tasksContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style-type: none;
+}
+
+#listItem {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
